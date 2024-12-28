@@ -1,0 +1,15 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+name = Felipe Batista
+email = felipebatista47@hotmail.com
+[core]
+	editor = code --wait
+
+[alias]
+s = !git status -s
+
+#já adiciona todos os arquivos e já faz o commit, sendo necessário apenas a mensagem
+c = !git add --all && git commit -m 
+
+l = !git log --pretty=format:'%C(blue)%h %C(red)%d% C(white)%s - %C(cyan)%cn, %C(green)%cr'
